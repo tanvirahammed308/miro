@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import "tailwindcss/tailwind.css";
 import { GoChevronDown } from "react-icons/go";
@@ -8,12 +8,17 @@ import { MdChevronRight } from "react-icons/md";
 
 
 export const Header = () => {
+  const [menuIcon, setMenuIcon] = useState(false);
+    const handleSmallerSceenNavigation=()=>{
+        setMenuIcon(!menuIcon)
+    }
   return (
     <div className='text-bold uppercase text-black flex justify-between flex-row items-center mx-5 border-b p-5'>
         <div className='flex items-center justify-between'>
-        <h2 className='text-2xl font-bold '>miro</h2>
-      
-            <ul className='flex space-x-5 '>
+        <h2 className='text-2xl font-bold '>miro</h2> 
+        {/* for lage  */}
+      <div className='hidden md:block'>
+      <ul className='flex space-x-5 '>
                 <li className='ml-2'>
                 <NavLink className='flex text-center items-center'
   to="/"
@@ -68,6 +73,8 @@ export const Header = () => {
 
                 </li>
             </ul>
+      </div>
+            
         
         
        
@@ -77,8 +84,8 @@ export const Header = () => {
        
 
         </div>
-       
-        <div>
+       {/* for lage  */}
+        <div className='hidden md:block'>
             <ul className='flex space-x-3 items-center'>
                 <li className='flex items-center'>
                 <TbWorld />
