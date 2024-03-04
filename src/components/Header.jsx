@@ -11,7 +11,7 @@ export const Header = () => {
   return (
     <div className='text-bold uppercase text-black flex justify-between flex-row items-center mx-5 border-b p-5'>
         <div className='flex items-center justify-between'>
-        <h2 className='text-2xl font-bold'>miro</h2>
+        <h2 className='text-2xl font-bold '>miro</h2>
       
             <ul className='flex space-x-5 '>
                 <li className='ml-2'>
@@ -102,8 +102,10 @@ export const Header = () => {
 </NavLink>
                 </li>
                 <li>
-                <NavLink
-                className='flex items-center'
+                  <button className='bg-blue-500 p-2 rounded-md	'>
+
+                  <NavLink
+                className='flex items-center  text-white'
   to="/"
  
 >Sign up free 
@@ -111,6 +113,8 @@ export const Header = () => {
 
  
 </NavLink>
+                  </button>
+                
                     
                 </li>
             </ul>
