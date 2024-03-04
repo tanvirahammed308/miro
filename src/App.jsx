@@ -9,6 +9,7 @@ import Collaborate from './components/Collaborate'
 import WorkTogether from './components/WorkTogether'
 import ConnectYour from './components/ConnectYour'
 import MiddlePic from './components/MiddlePic'
+import BuildFor from './components/BuildFor'
 
 function App() {
   
@@ -24,6 +25,7 @@ function App() {
     <WorkTogether/>
     <ConnectYour/>
     <MiddlePic/>
+    <BuildFor/>
 
 <Outlet />
 <Footer></Footer>
