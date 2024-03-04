@@ -11,8 +11,10 @@ const ConnectYour = () => {
             wo
             } alt="" />
         </div>
-        <div className='w-[550px] h-[270px]'>
-        <h2 className='font-bold text-4xl text-[#050038]'>Work together, wherever you work</h2>
+        <div className='w-[350px] md:w-[550px] md:h-[270px]'>
+        <h2 className='font-bold text-4xl text-[#050038]'>Connect 
+your tools, 
+close your tabs</h2>
 <p className='my-5'>
 In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are.
 </p>

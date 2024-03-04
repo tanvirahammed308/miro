@@ -22,7 +22,7 @@ const LoveBy = () => {
                     “When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”
                     </small>
                 </p>
-                <div className='flex gap-3 mt-5'>
+                <div className='flex gap-3 mt-10'>
                     <img src={mas1} alt="" />
                     <div>
                         <h6>Roxanne Mustafa</h6>
@@ -53,7 +53,7 @@ const LoveBy = () => {
                     <small>
                     “As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”                    </small>
                 </p>
-                <div className='flex gap-3 mt-5'>
+                <div className='flex gap-3 mt-14'>
                     <img src={mas3} alt="" />
                     <div>
                         <h6>Laura Baird</h6>

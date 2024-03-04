@@ -29,7 +29,7 @@ pricing plans for more features.</small></p>
 at our Trust Center .</small></p>
     </div>
 </div>
-<div className=' mx-96'>
+<div className='mx-5 md:mx-96'>
 <button className='flex relative '>
 <input type="button" value="Sign up free" className='mt-3 border w-[440px] h-[48px] rounded-md  bg-[#4262FF] text-white mt'  />
 <FaArrowRightLong  className='absolute top-7 right-[1000px] text-white'/>

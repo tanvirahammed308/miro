@@ -61,7 +61,7 @@ const BuildTeams = () => {
     </div>
 </div>
                 </div>
-                <div className='w-[700px] h-[517px]'>
+                <div className='w-[350px] md:w-[700px] md:h-[517px]'>
                     <img src={div2} alt="" />
 
                 </div>

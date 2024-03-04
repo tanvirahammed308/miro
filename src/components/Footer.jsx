@@ -4,9 +4,7 @@ import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='bg-[#02033B]
-      md:w-[1056px
-      ] md:h-[620px] '>
+    <div className='bg-[#02033B]  md:w-[1,440px] md:h-[640px] '>
             <div className='flex  flex-col  md:flex-row justify-between md:py-36 md:mx-auto md:container mx-5'>
             <div>
                 <h2 className='text-white'>Scan. Detect. Remove.</h2>
@@ -31,7 +29,7 @@ const Footer = () => {
                     </p>
                     </div>
                     
-                    <p className='mt-10'>
+                    <p className='mt-10 w-60'>
                         <small>
                         Copyright © 2022 Certo Software Limited | Registered in England & Wales No. 10072356
                         </small>
@@ -100,7 +98,7 @@ w-[20px] border-[#FFC247] '></div>
             
             
             </div>
-            <div className='text-white w-[545px] h-[45px] mb-10'>
+            <div className='text-white w-[400px] h-[40px] md:w-[545px] md:h-[45px] mx-5'>
                 <p><small>
                 Apple, the Apple logo, and iPhone are trademarks of Apple Inc., 
                 registered in the U.S. and other countries.

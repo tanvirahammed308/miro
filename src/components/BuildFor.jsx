@@ -36,7 +36,7 @@ Unleash creative ideas and build on them with the help of sticky notes,
  
 </NavLink>
                 </div>
-                <div className='w-[700px] h-[517px]'>
+                <div className='w-[350px] md:w-[700px] md:h-[517px]'>
                     <img src={div} alt="" />
 
                 </div>
