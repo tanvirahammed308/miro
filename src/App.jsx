@@ -10,6 +10,8 @@ import WorkTogether from './components/WorkTogether'
 import ConnectYour from './components/ConnectYour'
 import MiddlePic from './components/MiddlePic'
 import BuildFor from './components/BuildFor'
+import BuildTeams from './components/BuildTeams'
+import LoveBy from './components/LoveBy'
 
 function App() {
   
@@ -26,6 +28,8 @@ function App() {
     <ConnectYour/>
     <MiddlePic/>
     <BuildFor/>
+    <BuildTeams/>
+    <LoveBy/>
 
 <Outlet />
 <Footer></Footer>
